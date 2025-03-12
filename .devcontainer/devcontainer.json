@@ -1,0 +1,14 @@
+{
+  "name": "Yew Dev Container",
+  "dockerComposeFile": "../docker/docker-compose.yml",
+  "service": "yew",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  }
+}
+
