@@ -1,20 +1,10 @@
 use yew::prelude::*;
 
-pub struct Footer;
-
-impl Component for Footer {
-    type Message = ();
-    type Properties = ();
-
-    fn create(_ctx: &Context<Self>) -> Self {
-        Footer
-    }
-
-    fn view(&self, _ctx: &Context<Self>) -> Html {
-        html! {
-            <footer>
-                { "© 2025 ウォッチリスト！ All Rights Reserved." }
-            </footer>
-        }
+#[function_component(Footer)]
+pub fn footer() -> Html {
+    html! {
+        <footer class="bg-footer-bg text-footer-text p-4 text-center">
+            { "© 2025 rivers-syle systems" }
+        </footer>
     }
 }

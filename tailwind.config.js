@@ -19,7 +19,7 @@ module.exports = {
         'button-hover-bg': '#303f9f',
       },
       fontFamily: {
-        'sans': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        'sans': ['Noto Sans', 'Hiragino Kaku Gothic Pro', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
       boxShadow: {
         'card': '0 2px 8px rgba(0,0,0,0.1)',
